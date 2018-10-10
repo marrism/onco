@@ -1,16 +1,5 @@
-body, html {
-	width: 100%;
-	height: 100%;
-}
-body{
-	background-image: url(../img/cancer.jpeg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 0;
-	margin: 0;
-}
 h1 {
-	font-size: 60px;
+	font-size: 70px;
 	font-family: 'Coiny', cursive;
 	text-align: center;
 }
@@ -20,13 +9,13 @@ h2 {
 	text-align: center;
 }
 h3 {
-	font-family: serif;
-	font-size: 15px
+	font-size: 20px
 }
-h4 {
-	font-size: 20px;
+body{
+	background-image: url("../img/cancer.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-
 fieldset {
 	background-color: rgba(255, 225, 209, 0.3);
 	padding: 16px;
@@ -34,6 +23,10 @@ fieldset {
     -moz-border-radius:8px;
     -webkit-border-radius:8px;	
     border-radius:8px;
+    margin: 0px;
+}
+.titulo {
+	text-align: center;
 }
 .dingreso {
 	text-align: center;
@@ -42,15 +35,18 @@ fieldset {
 .botones {
 	text-align: center;
 }
+#contenedor{
+  display: inline-block;
+  min-width: 100px;
+}
 #logoosep {
 	background: url(../img/osep1.png);
 	background-position: 10% 75%;
 	background-repeat: no-repeat;
 }
-.titulo {
-	text-align: center;
-}
 .vove {
+	padding: 0;
+	margin: 0;
 	-ms-box-orient: horizontal;
 	display: -webkit-box;
 	display: -moz-box;
@@ -61,7 +57,7 @@ fieldset {
 	justify-content: space-around;
 }
 .item {
-	margin: 0px 0px 0px 0px;
+	margin: 0px 60px 20px 60px;
 	text-align: center;
 }
 .distri { 
@@ -71,8 +67,4 @@ fieldset {
 .colorregis {
 	color: rgb(230, 129, 171);
 	font-family: 'Lobster', cursive;
-}
-.navbar {
-	background-color: rgba(255, 225, 209, 0.3);
-	border:2px solid rgb(230, 129, 171);
 }
